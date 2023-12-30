@@ -9,7 +9,6 @@ export class ListComponent {
 
   public heroes: string[] = ['Spiderman', 'Ironman', 'Captain America', 'Hulk'];
   public deletedHero?: string;
-  public msg?:any;
   newHero: string = '';
 
   removeLastHero():void {

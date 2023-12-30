@@ -1,10 +1,14 @@
-<h1>DBZ Personajes</h1>
+<header class="d-flex justify-content-around align-items-center p-3 ">
+  <h1 class="logo-title">DBZ Personajes</h1>
+  <img class="logo-image" width="200px" src="../../../assets/images/60a96199afa8469b7c3c46810ed86816.png" alt="DBZ">
+</header>
+
 <hr>
 
-<div class="row">
+<div class="d-flex flex-column col order-1 mt-4 container border p-5">
   <div class="col">
 
-    <dbz-list (onDelete)="onDeleteCharacter($event)" [characterList]="characters"></dbz-list>
+    <dbz-list class="mb-4" (onDelete)="onDeleteCharacter($event)" [characterList]="characters"></dbz-list>
 
   </div>
 
